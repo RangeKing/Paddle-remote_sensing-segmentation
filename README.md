@@ -16,16 +16,16 @@
 - 测试数据集 测试数据集文件名称：img_test.zip，详细介绍如下： 包含4,609张分辨率为2m/pixel，尺寸为256 * 256的JPG图片，文件名称形如123.jpg。
 
 ## 项目结构
-```
+```dtd
 ├── checkpoint
-│   └── model.pdparams
+│   └── model.pdparams                 # 提交时所使用的checkpoint
 ├── configs
 │   ├── _base_
 │   │   └── rs.yml                     # 数据读取相关配置文件
-│   └── Segformer
+│   └── segformer
 │   │   └── segformer_b1_rs.yml        # Segformer训练相关配置文件
-├── README.MD
-└── Segformer.ipynb
+├── PaddleSeg_SegFormer.ipynb          # 项目代码
+└── README.MD                          # README
 ```
 ## 使用方式
 
