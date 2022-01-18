@@ -29,6 +29,6 @@
 ```
 ## 使用方式
 
-A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/usercenter)
+A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/3227402)
 
 B：打开上述连接运行项目即可。项目的源码同文件Segformer.ipynb
